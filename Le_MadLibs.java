@@ -17,16 +17,16 @@ public class Le_MadLibs {
             String nameOne = sc.nextLine();
             System.out.println("Input an adjective: ");
             String adjectiveOne = sc.nextLine();
-            System.out.println("Input a second noun: ");
-            String nounTwo = sc.nextLine();
+            System.out.println("Input a noun: ");
+            String nounOne = sc.nextLine();
             System.out.println("Input a plural noun: ");
             String pluralNounOne = sc.nextLine();
             System.out.println("Input the name of a celebrity: ");
             String celebrityNameOne = sc.nextLine();
             System.out.println("Input a second plural noun: ");
             String pluralNounTwo = sc.nextLine();
-            System.out.println("Input a third noun: ");
-            String nounThree = sc.nextLine();
+            System.out.println("Input a second noun: ");
+            String nounTwo = sc.nextLine();
             System.out.println("Input a song name: ");
             String popularSong = sc.nextLine();
             System.out.println("Input a verb ending in -ing: ");
@@ -38,8 +38,8 @@ public class Le_MadLibs {
             System.out.println("Input a third verb ending in -ing: ");
             String verbEndThree = sc.nextLine();
             //The Mad lib was too long to be held in one String variable alone, so it had to be split up into five parts.
-            String madLibTextOne = "\nOne day, my friend " + nameOne  + " felt a bit " + adjectiveOne + " and wanted to go to the " + nounTwo + " store. ";
-            String madLibTextOneTwo = "They said that, in a perfect world, there would be no " + pluralNounOne + ". Once we got to the store, we met " + celebrityNameOne + ", who had " + pluralNounTwo + " in their " + nounThree + ". ";
+            String madLibTextOne = "\nOne day, my friend " + nameOne  + " felt a bit " + adjectiveOne + " and wanted to go to the " + nounOne + " store. ";
+            String madLibTextOneTwo = "They said that, in a perfect world, there would be no " + pluralNounOne + ". Once we got to the store, we met " + celebrityNameOne + ", who had " + pluralNounTwo + " in their " + nounTwo + ". ";
             String madLibTextOneThree = "They were singing " + popularSong + " and talking about " + verbEndOne + " in " + placeOne + ".";
             String madLibTextOneFour = "We said goodbye to them and went back home, " + verbEndTwo;
             String madLibTextOneFive =  " and " + verbEndThree + ".";
