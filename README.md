@@ -3,4 +3,4 @@
 ## 🎖️ Milestones
 
 ## Code in Action:
-images/PromptOne.png
+![images/PromptOne.png](https://github.com/LemonSCoder/mad-libs-1210-solution/blob/main/images/PromptOne.png)
