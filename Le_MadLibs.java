@@ -28,7 +28,7 @@ public class Le_MadLibs {
             System.out.println("Input a second noun: ");
             String nounTwo = sc.nextLine();
             System.out.println("Input a song name: ");
-            String popularSong = sc.nextLine();
+            String songName = sc.nextLine();
             System.out.println("Input a verb ending in -ing: ");
             String verbEndOne = sc.nextLine();
             System.out.println("Input a place name: ");
@@ -40,7 +40,7 @@ public class Le_MadLibs {
             //The Mad lib was too long to be held in one String variable alone, so it had to be split up into five parts.
             String madLibTextOne = "\nOne day, my friend " + nameOne  + " felt a bit " + adjectiveOne + " and wanted to go to the " + nounOne + " store. ";
             String madLibTextOneTwo = "They said that, in a perfect world, there would be no " + pluralNounOne + ". Once we got to the store, we met " + celebrityNameOne + ", who had " + pluralNounTwo + " in their " + nounTwo + ". ";
-            String madLibTextOneThree = "They were singing " + popularSong + " and talking about " + verbEndOne + " in " + placeOne + ".";
+            String madLibTextOneThree = "They were singing " + songName + " and talking about " + verbEndOne + " in " + placeOne + ".";
             String madLibTextOneFour = "We said goodbye to them and went back home, " + verbEndTwo;
             String madLibTextOneFive =  " and " + verbEndThree + ".";
             //Mad Lib is concatenated together. Line breaks are present for easier readability.
