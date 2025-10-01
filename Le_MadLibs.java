@@ -73,12 +73,12 @@ public class Le_MadLibs {
             System.out.println("Input the name of a song: ");
             String songName = sc.nextLine();
             //The Mad lib was too long to be held in one String variable alone, so it had to be split up into four parts.
-            String madLibTextOne = "\nOn a fine " + seasonName + " evening, my friend " + nameOne + " and I got invited to a wedding between " + nameTwo + " and " + nameThree +".";
-            String madLibTextOneTwo = "The wedding would take place at " + placeOne + ". My friend and I went by " + vehicleOne + " and got there just in time before the couple exchanged " + pluralNounOne + ".";
-            String madLibTextOneThree = "After they kissed each other, everyone got " + foodOne + " cake and drank " + beverageName  + ". We ate the cake with " + pluralNounTwo + " before going on the dance floor.";
-            String madLibTextOneFour = "We danced to " + songName + " before leaving the wedding.";
+            String madLibTextTwo = "\nOn a fine " + seasonName + " evening, my friend " + nameOne + " and I got invited to a wedding between " + nameTwo + " and " + nameThree +".";
+            String madLibTextTwoTwo = "The wedding would take place at " + placeOne + ". My friend and I went by " + vehicleOne + " and got there just in time before the couple exchanged " + pluralNounOne + ".";
+            String madLibTextTwoThree = "After they kissed each other, everyone got " + foodOne + " cake and drank " + beverageName  + ". We ate the cake with " + pluralNounTwo + " before going on the dance floor.";
+            String madLibTextTwoFour = "We danced to " + songName + " before leaving the wedding.";
             //Mad Lib is concatenated together. Line breaks are present for easier readability.
-            System.out.println(madLibTextOne + "\n" + madLibTextOneTwo + "\n" + madLibTextOneThree + "\n" + madLibTextOneFour + "\n");
+            System.out.println(madLibTextTwo + "\n" + madLibTextTwoTwo + "\n" + madLibTextTwoThree + "\n" + madLibTextTwoFour + "\n");
         }
         //Scanner object closed to avoid memory leaks.
         sc.close();
