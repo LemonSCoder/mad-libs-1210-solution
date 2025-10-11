@@ -1,10 +1,14 @@
 # 1.2.10 Mad Libs
 
+## Note: The Improved Mad Lib code only works if the customized Mad Lib by the user has two or less inputs.
+
 ## Objective:
 Create a program that takes the user's input for various nouns, verbs, adjectives, and names and concatenate them into a Mad Libs story, which may or may not be customized by the user.
 
 ## How this was Accomplished:
 The Scanner class was imported from the java.util package in order to get user input. A new Scanner object (sc) was instantiated in my code shortly after. The user, upon running the program, will be asked which Mad Lib they want to input parts of speech for (Mad Lib 1 or 2; one is about visiting a grocery store and the other is about a wedding). Once the user inputs an answer, the program will check if the input, stored as an integer in the variable chooseMadLib, is either one or two. If chooseMadLib is equal to one, the player will be prompted to enter various parts of speech for the first Mad Lib, one by one. Each of the player's inputs are stored in String variables (ex. nounOne, pluralNounOne, adjectiveOne) to be used later in the final Mad Lib. Once the player is done with their inputs, these inputs, in the forms of String variables, will be concatenated into other String variables, which each consist of different, broken-down sentences of the first Mad Lib (putting the entire Mad Lib into one String variable produced an error). These new String variables containing different sentences of the first Mad Lib as well as the users' input will be concatenated together, with line breaks in between each String variable to ensure better readability by the user. Finally, the resulting Mad Lib is printed out for the user to see and the Scanner object is closed. If chooseMadLib is equal to two, the same logic as when chooseMadlib is equal to one is applied, however within the context of the second Mad Lib.
+
+In the improved Mad Libs code, the Scanner class is imported, and a new Scanner object (sc) is instantiated in the code shortly after. The user will be prompted to put in their own custom Mad Lib, with any inputs for parts of speech being written with brackets (ex. <noun> or <adjective>). The custom Mad Lib will proceed to be saved in a String named originalStory. Then, the result of calling the function generateStory (which is supposed to return a String) on originalStory will be printed. The generateStory function iterates through each character in 
 
 ## 🎖️ Milestones:
 
@@ -17,9 +21,9 @@ The Scanner class was imported from the java.util package in order to get user i
 | Show each part of speech to the user  | 15 minutes  | 10 minutes |
 | Get the user's response  | 15 minutes | 10 minutes |
 | Get the user's response Cell  | 5 minutes | 10 minutes  |
-| Get user's custom mad lib input | 5 minutes | 5 minutes |
-| Parse user input into user's custom mad lib | 30 minutes | 60 minutes |
-| Output new mad lib | 5 minutes | 5 minutes |
+| Get user's custom Mad Lib input | 5 minutes | 5 minutes |
+| Parse user input into user's custom Mad Lib | 30 minutes | 60 minutes |
+| Output new Mad Lib | 5 minutes | 5 minutes |
 
 ## Code in Action:
 -----------------------------
