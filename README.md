@@ -1,6 +1,6 @@
 # 1.2.10 Mad Libs
 
-## Note: The Improved Mad Lib code only works if the customized Mad Lib by the user has two or less inputs.
+## Note: The Improved Mad Lib code only works if the customized Mad Lib by the user has two or less inputs. If you want to look at the fully functioning version, see MadLibsVerThree.java.
 
 ## Objective:
 Create a program that takes the user's input for various nouns, verbs, adjectives, and names and concatenate them into a Mad Libs story, which may or may not be customized by the user.
